@@ -96,9 +96,17 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
                 <h3 class="text-xl font-bold mb-4">United Lawn Specialist</h3>
                 <p class="text-gray-300 italic">"We Beautify Your Peace of America"</p>
                 <div class="mt-4">
-                  <a href="tel:+1234567890" class="text-gray-300 hover:text-white">
-                    <i class="fas fa-phone mr-2"></i>(123) 456-7890
+                  <a href="tel:+14702419957" class="text-gray-300 hover:text-white">
+                    <i class="fas fa-phone mr-2"></i>470-241-9957
                   </a>
+                </div>
+                <div class="mt-2">
+                  <a href="mailto:info@unitedlawnspecialist.com" class="text-gray-300 hover:text-white">
+                    <i class="fas fa-envelope mr-2"></i>info@unitedlawnspecialist.com
+                  </a>
+                </div>
+                <div class="mt-2 text-gray-300">
+                  <i class="fas fa-map-marker-alt mr-2"></i>PO Box 73362, Newnan, GA 30271-3362
                 </div>
               </div>
               

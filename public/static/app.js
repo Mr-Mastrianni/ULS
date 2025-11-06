@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         formMessage.className = 'message-error';
         formMessage.innerHTML = `
           <i class="fas fa-exclamation-circle mr-2"></i>
-          Sorry, there was an error submitting your request. Please call us directly at (123) 456-7890.
+          Sorry, there was an error submitting your request. Please call us directly at 470-241-9957.
         `;
         formMessage.classList.remove('hidden');
         

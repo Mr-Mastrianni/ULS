@@ -25,8 +25,8 @@ export const ContactPage = () => {
                   <i class="fas fa-phone-alt text-2xl text-brand-blue mr-4 mt-1"></i>
                   <div>
                     <h3 class="font-bold text-lg mb-1">Phone</h3>
-                    <a href="tel:+1234567890" class="text-gray-700 hover:text-brand-blue text-lg">
-                      (123) 456-7890
+                    <a href="tel:+14702419957" class="text-gray-700 hover:text-brand-blue text-lg">
+                      470-241-9957
                     </a>
                   </div>
                 </div>
@@ -53,6 +53,15 @@ export const ContactPage = () => {
 
                 <div class="flex items-start">
                   <i class="fas fa-map-marker-alt text-2xl text-brand-blue mr-4 mt-1"></i>
+                  <div>
+                    <h3 class="font-bold text-lg mb-1">Mailing Address</h3>
+                    <p class="text-gray-700">PO Box 73362</p>
+                    <p class="text-gray-700">Newnan, GA 30271-3362</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start">
+                  <i class="fas fa-map-marked-alt text-2xl text-brand-blue mr-4 mt-1"></i>
                   <div>
                     <h3 class="font-bold text-lg mb-1">Service Areas</h3>
                     <p class="text-gray-700">Fayette County, GA</p>
@@ -116,7 +125,7 @@ export const ContactPage = () => {
                     name="phone" 
                     required
                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-blue"
-                    placeholder="(123) 456-7890"
+                    placeholder="470-241-9957"
                   />
                 </div>
 

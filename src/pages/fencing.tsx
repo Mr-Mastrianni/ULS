@@ -104,8 +104,8 @@ export const FencingPage = () => {
             <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
               Get Free Quote
             </a>
-            <a href="tel:+1234567890" class="bg-white text-brand-navy px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition">
-              Call (123) 456-7890
+            <a href="tel:+14702419957" class="bg-white text-brand-navy px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition">
+              Call 470-241-9957
             </a>
           </div>
         </div>
