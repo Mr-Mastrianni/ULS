@@ -27,8 +27,8 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
           `
         }} />
       </head>
-      <body class="bg-gray-50">
-        <nav class="bg-white shadow-lg sticky top-0 z-50">
+      <body class="bg-gradient-to-br from-gray-50 via-blue-50 to-gray-100">
+        <nav class="glass-nav sticky top-0 z-50">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
               <div class="flex items-center">

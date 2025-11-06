@@ -101,7 +101,7 @@ export const FencingPage = () => {
           <h2 class="text-4xl font-bold mb-4">Ready to Transform Your Property?</h2>
           <p class="text-xl mb-8">Get a free quote on fence installation, repair, or restoration services.</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
+            <a href="/contact" class="btn-realistic text-white px-8 py-4 rounded-xl text-lg font-bold">
               Get Free Quote
             </a>
             <a href="tel:+14702419957" class="bg-white text-brand-navy px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition">

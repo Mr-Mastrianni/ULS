@@ -25,7 +25,7 @@ export const GalleryPage = () => {
               Featured Transformations
             </h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-1.jpg" 
                   alt="Professional lawn transformation - before and after hydro seeding" 
@@ -37,7 +37,7 @@ export const GalleryPage = () => {
                 </div>
               </div>
 
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-2.jpg" 
                   alt="Complete property makeover - fencing, painting, and lawn care" 
@@ -70,7 +70,7 @@ export const GalleryPage = () => {
               Lawn Care & Fertilization
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-1.jpg" 
                   alt="Lawn care transformation" 
@@ -81,7 +81,7 @@ export const GalleryPage = () => {
                   <p class="text-sm text-gray-600">From bare patches to lush green lawn</p>
                 </div>
               </div>
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-2.jpg" 
                   alt="Professional lawn care results" 
@@ -108,7 +108,7 @@ export const GalleryPage = () => {
               Fencing Projects
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-3.jpg" 
                   alt="White picket fence installation" 
@@ -119,7 +119,7 @@ export const GalleryPage = () => {
                   <p class="text-sm text-gray-600">Beautiful white picket fence adds charm</p>
                 </div>
               </div>
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-2.jpg" 
                   alt="Complete property fencing" 
@@ -146,7 +146,7 @@ export const GalleryPage = () => {
               Complete Property Transformations
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-2.jpg" 
                   alt="Complete property makeover including fencing, painting, and lawn care" 
@@ -169,7 +169,7 @@ export const GalleryPage = () => {
                 </div>
               </div>
 
-              <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div class="premium-card overflow-hidden">
                 <img 
                   src="/static/before-after-3.jpg" 
                   alt="Fence and lawn care combined service" 
@@ -214,7 +214,7 @@ export const GalleryPage = () => {
             Join the hundreds of satisfied homeowners who have trusted United Lawn Specialist with their property beautification needs.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
+            <a href="/contact" class="btn-realistic text-white px-8 py-4 rounded-xl text-lg font-bold">
               Get Free Quote
             </a>
             <a href="tel:+14702419957" class="bg-brand-navy text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-blue-900 transition">

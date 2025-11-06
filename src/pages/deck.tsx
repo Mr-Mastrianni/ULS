@@ -89,7 +89,7 @@ export const DeckPage = () => {
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 class="text-4xl font-bold mb-4">Ready to Refresh Your Deck?</h2>
           <p class="text-xl mb-8">Contact us for a free quote on deck staining, painting, or restoration.</p>
-          <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
+          <a href="/contact" class="btn-realistic text-white px-8 py-4 rounded-xl text-lg font-bold">
             Get Free Quote
           </a>
         </div>

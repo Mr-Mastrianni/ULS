@@ -134,7 +134,7 @@ export const ServiceAreasPage = () => {
             Contact us with your location and service needs. We'll let you know which services are available in your area and provide a free quote.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
+            <a href="/contact" class="btn-realistic text-white px-8 py-4 rounded-xl text-lg font-bold">
               Get Free Quote
             </a>
             <a href="tel:+14702419957" class="bg-brand-navy text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-blue-900 transition">

@@ -16,7 +16,7 @@ export const HomePage = () => {
               Professional Fencing, Painting, & Lawncare Services in Fayette County, Coweta County, and Metro Atlanta
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
+              <a href="/contact" class="btn-realistic text-white px-8 py-4 rounded-xl text-lg font-bold">
                 <i class="fas fa-phone mr-2"></i>Get Free Quote
               </a>
               <a href="tel:+14702419957" class="bg-white text-brand-navy px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition">
@@ -76,7 +76,7 @@ export const HomePage = () => {
           
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Lawn Care Services */}
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <div class="bg-green-600 text-white p-6">
                 <i class="fas fa-seedling text-4xl mb-2"></i>
                 <h3 class="text-2xl font-bold">Lawn Care Services</h3>
@@ -96,7 +96,7 @@ export const HomePage = () => {
             </div>
 
             {/* Hydro Seeding */}
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <div class="bg-blue-600 text-white p-6">
                 <i class="fas fa-water text-4xl mb-2"></i>
                 <h3 class="text-2xl font-bold">Hydro Seeding</h3>
@@ -116,7 +116,7 @@ export const HomePage = () => {
             </div>
 
             {/* Fencing Services */}
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <div class="bg-brand-red text-white p-6">
                 <i class="fas fa-home text-4xl mb-2"></i>
                 <h3 class="text-2xl font-bold">Fencing Services</h3>
@@ -136,7 +136,7 @@ export const HomePage = () => {
             </div>
 
             {/* Deck Services */}
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <div class="bg-orange-600 text-white p-6">
                 <i class="fas fa-paint-roller text-4xl mb-2"></i>
                 <h3 class="text-2xl font-bold">Deck Services</h3>
@@ -156,7 +156,7 @@ export const HomePage = () => {
             </div>
 
             {/* Pest Control */}
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <div class="bg-purple-600 text-white p-6">
                 <i class="fas fa-bug text-4xl mb-2"></i>
                 <h3 class="text-2xl font-bold">Pest Control</h3>
@@ -297,7 +297,7 @@ export const HomePage = () => {
           <p class="text-xl text-center text-gray-600 mb-12">See the quality and care we bring to every project</p>
           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <img 
                 src="/static/before-after-1.jpg" 
                 alt="Professional lawn transformation before and after" 
@@ -309,7 +309,7 @@ export const HomePage = () => {
               </div>
             </div>
             
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <img 
                 src="/static/before-after-2.jpg" 
                 alt="Complete property makeover with fencing and lawn care" 
@@ -321,7 +321,7 @@ export const HomePage = () => {
               </div>
             </div>
             
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div class="service-card">
               <img 
                 src="/static/before-after-3.jpg" 
                 alt="Fence installation with lawn restoration" 
@@ -348,7 +348,7 @@ export const HomePage = () => {
           <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">What Our Customers Say</h2>
           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="testimonial-glass p-6">
               <div class="flex mb-4">
                 <i class="fas fa-star text-yellow-500"></i>
                 <i class="fas fa-star text-yellow-500"></i>
@@ -362,7 +362,7 @@ export const HomePage = () => {
               <p class="font-bold text-gray-800">- Sarah M., Fayetteville</p>
             </div>
             
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="testimonial-glass p-6">
               <div class="flex mb-4">
                 <i class="fas fa-star text-yellow-500"></i>
                 <i class="fas fa-star text-yellow-500"></i>
@@ -376,7 +376,7 @@ export const HomePage = () => {
               <p class="font-bold text-gray-800">- John D., Peachtree City</p>
             </div>
             
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="testimonial-glass p-6">
               <div class="flex mb-4">
                 <i class="fas fa-star text-yellow-500"></i>
                 <i class="fas fa-star text-yellow-500"></i>
@@ -405,7 +405,7 @@ export const HomePage = () => {
           <h2 class="text-4xl font-bold mb-4">Ready to Beautify Your Peace of America?</h2>
           <p class="text-xl mb-8">Contact us today for a free quote on any of our services.</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
+            <a href="/contact" class="btn-realistic text-white px-8 py-4 rounded-xl text-lg font-bold">
               Get Free Quote
             </a>
             <a href="tel:+14702419957" class="bg-white text-brand-navy px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition">

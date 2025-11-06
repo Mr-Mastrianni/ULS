@@ -106,7 +106,7 @@ export const AboutPage = () => {
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 class="text-4xl font-bold mb-4">Ready to Experience the Difference?</h2>
           <p class="text-xl mb-8">Join the many homeowners who trust United Lawn Specialist for their property care.</p>
-          <a href="/contact" class="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-red-700 transition">
+          <a href="/contact" class="btn-realistic text-white px-8 py-4 rounded-xl text-lg font-bold">
             Get Started Today
           </a>
         </div>
