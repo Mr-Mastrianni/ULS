@@ -9,7 +9,7 @@ export const HomePage = () => {
               <img 
                 src="/static/logo.png" 
                 alt="United Lawn Specialist - Fencing, Painting, & Lawncare" 
-                class="h-48 md:h-64 w-auto"
+                class="h-48 md:h-64 w-auto hero-logo-glow"
               />
             </div>
             <p class="text-xl mb-8 max-w-3xl mx-auto">
