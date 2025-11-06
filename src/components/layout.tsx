@@ -6,6 +6,8 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{title}</title>
         <meta name="description" content="United Lawn Specialist - We Beautify Your Peace of America. Professional lawn care, fencing, deck services, and pest control in Fayette County, Coweta County, and Metro Atlanta." />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/static/logo.png" />
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet" />
         <link href="/static/styles.css" rel="stylesheet" />
@@ -31,10 +33,11 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
             <div class="flex justify-between items-center h-20">
               <div class="flex items-center">
                 <a href="/" class="flex items-center">
-                  <div class="text-2xl font-bold">
-                    <span class="text-brand-blue">UNITED</span>
-                    <span class="text-gray-700"> LAWN SPECIALIST</span>
-                  </div>
+                  <img 
+                    src="/static/logo.png" 
+                    alt="United Lawn Specialist - We Beautify Your Peace of America" 
+                    class="h-16 w-auto"
+                  />
                 </a>
               </div>
               
@@ -93,7 +96,11 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <h3 class="text-xl font-bold mb-4">United Lawn Specialist</h3>
+                <img 
+                  src="/static/logo.png" 
+                  alt="United Lawn Specialist Logo" 
+                  class="h-20 w-auto mb-4"
+                />
                 <p class="text-gray-300 italic">"We Beautify Your Peace of America"</p>
                 <div class="mt-4">
                   <a href="tel:+14702419957" class="text-gray-300 hover:text-white">

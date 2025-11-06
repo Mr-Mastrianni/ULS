@@ -5,15 +5,13 @@ export const HomePage = () => {
       <section class="relative bg-gradient-to-r from-brand-navy to-brand-blue text-white py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="text-center">
-            <div class="mb-6">
-              <i class="fas fa-leaf text-6xl text-brand-red"></i>
+            <div class="mb-6 flex justify-center">
+              <img 
+                src="/static/logo.png" 
+                alt="United Lawn Specialist - Fencing, Painting, & Lawncare" 
+                class="h-48 md:h-64 w-auto"
+              />
             </div>
-            <h1 class="text-5xl md:text-6xl font-bold mb-4">
-              United Lawn Specialist
-            </h1>
-            <p class="text-2xl md:text-3xl mb-8 italic text-gray-200">
-              "We Beautify Your Peace of America"
-            </p>
             <p class="text-xl mb-8 max-w-3xl mx-auto">
               Professional Fencing, Painting, & Lawncare Services in Fayette County, Coweta County, and Metro Atlanta
             </p>
