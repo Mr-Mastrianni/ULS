@@ -290,8 +290,62 @@ export const HomePage = () => {
         </div>
       </section>
 
+      {/* Gallery Preview - Real Transformations */}
+      <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">
+            <i class="fas fa-images text-brand-blue mr-3"></i>Real Transformations
+          </h2>
+          <p class="text-xl text-center text-gray-600 mb-12">See the quality and care we bring to every project</p>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+              <img 
+                src="/static/before-after-1.jpg" 
+                alt="Professional lawn transformation before and after" 
+                class="w-full h-64 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="font-bold text-lg text-gray-800 mb-2">Hydro Seeding Success</h3>
+                <p class="text-gray-600">Complete lawn transformation from neglected to beautiful</p>
+              </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+              <img 
+                src="/static/before-after-2.jpg" 
+                alt="Complete property makeover with fencing and lawn care" 
+                class="w-full h-64 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="font-bold text-lg text-gray-800 mb-2">Complete Property Makeover</h3>
+                <p class="text-gray-600">Fence installation, painting, and professional lawn care</p>
+              </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+              <img 
+                src="/static/before-after-3.jpg" 
+                alt="Fence installation with lawn restoration" 
+                class="w-full h-64 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="font-bold text-lg text-gray-800 mb-2">Fencing & Lawn Care Combined</h3>
+                <p class="text-gray-600">Beautiful results from our comprehensive services</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center mt-8">
+            <a href="/gallery" class="text-brand-blue font-bold text-lg hover:underline">
+              View Full Gallery <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Preview */}
-      <section class="py-16">
+      <section class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">What Our Customers Say</h2>
           
