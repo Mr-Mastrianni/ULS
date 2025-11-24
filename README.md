@@ -8,7 +8,7 @@ A professional website for United Lawn Specialist - comprehensive property beaut
 
 - **Development**: https://3000-ibji7hnnlx691amadnyt8-0e616f0a.sandbox.novita.ai
 - **Production**: *To be deployed to Cloudflare Pages*
-- **GitHub**: *Repository to be created*
+- **GitHub**: https://github.com/Mr-Mastrianni/ULS
 
 ## 🎨 Branding
 
