@@ -5,8 +5,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// Import the app
-const appModule = await import('./src/index.tsx');
+// Import the app from the built worker
+const appModule = await import('./dist/_worker.js');
 const app = appModule.default;
 
 // Pages to generate
@@ -37,19 +37,19 @@ for (const route of routes) {
   try {
     // Create mock request
     const req = new Request(`http://localhost${route.path}`);
-    
+
     // Get response from Hono app
     const res = await app.fetch(req);
     const html = await res.text();
-    
+
     // Create directory structure
     const filePath = join(docsDir, route.file);
     const fileDir = dirname(filePath);
-    
+
     if (!existsSync(fileDir)) {
       mkdirSync(fileDir, { recursive: true });
     }
-    
+
     // Write HTML file
     writeFileSync(filePath, html);
     console.log(`✓ Generated: ${route.file}`);
