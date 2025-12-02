@@ -45,9 +45,8 @@ export const ContactPage = () => {
                   <i class="fas fa-clock text-2xl text-brand-blue mr-4 mt-1"></i>
                   <div>
                     <h3 class="font-bold text-lg mb-1">Business Hours</h3>
-                    <p class="text-gray-700">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p class="text-gray-700">Saturday: 9:00 AM - 4:00 PM</p>
-                    <p class="text-gray-700">Sunday: Closed</p>
+                    <p class="text-gray-700">Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    <p class="text-gray-700">Closed on Weekends</p>
                   </div>
                 </div>
 

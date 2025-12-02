@@ -33,14 +33,14 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
             <div class="flex justify-between items-center h-20">
               <div class="flex items-center">
                 <a href="/" class="flex items-center">
-                  <img 
-                    src="/static/logo.png" 
-                    alt="United Lawn Specialist - We Beautify Your Peace of America" 
+                  <img
+                    src="/static/logo.png"
+                    alt="United Lawn Specialist - We Beautify Your Peace of America"
                     class="h-16 w-auto"
                   />
                 </a>
               </div>
-              
+
               {/* Mobile menu button */}
               <div class="md:hidden">
                 <button id="mobile-menu-button" class="text-gray-700 hover:text-brand-blue">
@@ -96,9 +96,9 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <img 
-                  src="/static/logo.png" 
-                  alt="United Lawn Specialist Logo" 
+                <img
+                  src="/static/logo.png"
+                  alt="United Lawn Specialist Logo"
                   class="h-20 w-auto mb-4"
                 />
                 <p class="text-gray-300 italic">"We Beautify Your Peace of America"</p>
@@ -115,8 +115,13 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
                 <div class="mt-2 text-gray-300">
                   <i class="fas fa-map-marker-alt mr-2"></i>PO Box 73362, Newnan, GA 30271-3362
                 </div>
+                <div class="mt-4 text-gray-300">
+                  <h5 class="font-bold text-white mb-1">Business Hours</h5>
+                  <p class="text-sm">Mon - Fri: 8:00 AM - 5:00 PM</p>
+                  <p class="text-sm">Closed on Weekends</p>
+                </div>
               </div>
-              
+
               <div>
                 <h4 class="font-bold mb-4">Services</h4>
                 <ul class="space-y-2">
@@ -127,7 +132,7 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
                   <li><a href="/pest-control" class="text-gray-300 hover:text-white">Pest Control</a></li>
                 </ul>
               </div>
-              
+
               <div>
                 <h4 class="font-bold mb-4">Service Areas</h4>
                 <ul class="space-y-2 text-gray-300">
@@ -137,7 +142,7 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
                   <li>Metro Atlanta (Projects)</li>
                 </ul>
               </div>
-              
+
               <div>
                 <h4 class="font-bold mb-4">Quick Links</h4>
                 <ul class="space-y-2">
@@ -149,7 +154,7 @@ export const Layout = ({ title, children }: { title: string; children: any }) =>
                 </ul>
               </div>
             </div>
-            
+
             <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
               <p>&copy; 2025 United Lawn Specialist. All rights reserved.</p>
             </div>
