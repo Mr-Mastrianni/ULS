@@ -40,7 +40,13 @@ for (const route of routes) {
 
     // Get response from Hono app
     const res = await app.fetch(req);
-    const html = await res.text();
+    let html = await res.text();
+
+    // Rewrite paths for GitHub Pages (repo name: ULS)
+    // This handles links, scripts, images, and css
+    html = html.replace(/src="\/([^"]*)"/g, 'src="/ULS/$1"');
+    html = html.replace(/href="\/([^"]*)"/g, 'href="/ULS/$1"');
+    html = html.replace(/action="\/([^"]*)"/g, 'action="/ULS/$1"');
 
     // Create directory structure
     const filePath = join(docsDir, route.file);
